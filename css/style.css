@@ -1,0 +1,208 @@
+
+
+    /*
+
+        NUR-ALAM 
+        nuralam862@gmail.com
+
+        Project Name : todoapp
+
+    */
+
+
+
+    /*     preset     */
+
+
+
+    *{
+        margin:0px;
+        padding:0px;
+        outline:0px;
+        box-sizing:border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box; 
+    }
+
+    html,
+    body{   
+        font-family : 'Open Sans', sans-serif;
+        font-size : 14px;
+        width : 800px;
+        margin: 0 auto;
+        background: #eee;
+    }
+
+    a{  
+        text-decoration:none;   
+    }
+
+    a:focus{
+        text-decoration:none;   
+        border: none;
+        outline: none;
+    }
+
+    a:hover{
+        cursor:pointer;
+        text-decoration:none;
+    }
+
+
+    h1{
+        font-size: 60px;
+    }
+
+    h2{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    h3{
+        font-size:  36px;
+    }
+
+    h4{ 
+        font-size: 24px;
+    }
+
+    h5{ 
+        font-size: 20px;
+    }
+
+    h6{
+        font-size: 18px;
+    }
+
+    p{
+        font-size:1em;
+        margin: 0px;
+        line-height: 2;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, a {
+        color: #000;
+        margin: 0px;
+        padding: 0px;
+        outline: 0px;
+    }
+
+
+    .header_area{
+      background: #ddd;
+    }
+
+    .header_area>h2{
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .add-task-area{
+      width: 30%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .add-task-area>h5{
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input{
+      margin-bottom: 10px;
+    }
+
+    .task-list{
+
+    }
+
+    .task-list>h5{
+      font-weight: bold;
+    }
+
+    .rowEffected{
+        font-size: 15px;
+        font-weight: bold;
+        color: #F07178;
+    }
+
+    .main_area{
+        padding: 0px 0px;
+    }
+
+
+    .edit-area{
+        width: 40%;
+    }
+
+    .edit-area h5{
+        margin-top: 10px;
+    }
+
+    .edit-area input{
+        margin-top: 10px;
+    }
+
+    .edit-area button{
+        margin-bottom: 50px;
+    }
+
+
+    .footer_area{
+        background: #ddd;
+    }
+    .footer_area>p{
+        background: #ddd;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+
+
+    
+
+/*  Medium layout:1200px  */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+
+    
+}
+
+
+
+/*  Tablet layout:768px  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+    
+}
+
+
+
+/*  Mobile layout:768px  */
+@media only screen and (min-width:250px) and (max-width: 767px){
+
+
+    
+    
+}
+
+
+
+/* Wide  Mobile layout:768px  */
+
+@media only screen and (max-width: 480px){
+
+
+}
+
+/* Wide  Mobile layout:768px  */
+
+@media only screen and (max-width: 240px){
+
+    
+  
+}
